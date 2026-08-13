@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Luxury Furniture</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial;background:#111;color:white}
+header{background:#000;padding:18px;text-align:center;border-bottom:2px solid #d4af37}
+header h1{color:#d4af37}
+nav{padding:15px;text-align:center;background:#1c1c1c}
+nav a{color:white;text-decoration:none;margin:12px}
+nav a:hover{color:#d4af37}
+
+.hero{
+padding:80px 20px;text-align:center;
+background:linear-gradient(#0009,#0009),
+url("https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80") center/cover
+}
+.hero h2{font-size:42px;color:#d4af37}
+.hero p{margin:15px}
+.btn{
+display:inline-block;background:#d4af37;color:#000;
+padding:12px 25px;text-decoration:none;border-radius:5px
+}
+
+section{padding:50px 8%}
+h2{text-align:center;color:#d4af37;margin-bottom:30px}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px
+}
+.card{
+background:#222;border-radius:10px;overflow:hidden;
+text-align:center;padding-bottom:20px
+}
+.card img{width:100%;height:180px;object-fit:cover}
+.card h3{color:#d4af37;margin:15px}
+.card p{margin:8px}
+.price{font-size:20px;color:#00e676;font-weight:bold}
+
+.about{text-align:center;line-height:1.7;background:#1a1a1a}
+
+.contact{text-align:center}
+footer{
+background:#000;text-align:center;padding:25px;
+border-top:2px solid #d4af37
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Luxury Furniture</h1>
+<p>By Ravikant Jangid</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#products">Products</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+<h2>Luxury Furniture</h2>
+<p>Beautiful • Modern • Premium Quality</p>
+<a class="btn" href="#products">View Products</a>
+</section>
+
+<section id="products">
+<h2>Our Products</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&q=80">
+<h3>Luxury Bed</h3>
+<p>Premium Wooden Bed</p>
+<p class="price">₹39,999</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=600&q=80">
+<h3>Sofa Set</h3>
+<p>Modern Comfortable Sofa</p>
+<p class="price">₹49,999</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1549497538-303791108f95?auto=format&fit=crop&w=600&q=80">
+<h3>Dining Table</h3>
+<p>Premium Dining Table</p>
+<p class="price">₹29,999</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=600&q=80">
+<h3>Wardrobe</h3>
+<p>Modern Designer Wardrobe</p>
+<p class="price">₹24,999</p>
+</div>
+
+</div>
+</section>
+
+<section class="about" id="about">
+<h2>About Us</h2>
+<p>
+Luxury Furniture is owned by <b>Ravikant Jangid</b>.
+We provide stylish, modern and high-quality furniture
+for your home at affordable prices.
+</p>
+</section>
+
+<section class="contact" id="contact">
+<h2>Contact Us</h2>
+<p>📞 +91 XXXXXXXXXX</p>
+<p>📍 Your City, Rajasthan</p>
+<br>
+<a class="btn" href="tel:+91XXXXXXXXXX">Call Now</a>
+</section>
+
+<footer>
+<h3>Luxury Furniture</h3>
+<p>© 2026 Ravikant Jangid. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
